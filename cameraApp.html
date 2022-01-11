@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Camera</title>
+</head>
+<body>
+    
+    <div class="Video-container">
+        <div class="frame" style="overflow: hidden; height: 100%;"></div>
+        <video style="height: 100%;" autoplay></video>
+    </div>
+    <div class="filter-screen-parent"></div>
+
+    <button id="recorder-video">Record</button>
+    <button id="click-picture">Click</button>
+    
+    <div class="filter-container">
+        <div style="background-color: #f4a2613d;" class="filter" ></div>
+        <div style="background-color: #e85d0440;" class="filter" ></div>
+        <div style="background-color: #4f6ab63d;" class="filter" ></div>
+        <div style="background-color: #0f61073d;" class="filter" ></div>
+        <div style="background-color: #fc80d23d;" class="filter" ></div>
+    </div>
+    <div class="zoom">
+        <button class="zoom-in">Zoom In</button>
+        <button class="zoom-out">Zoom Out</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="./dbScript.js"></script>
+</body>
+</html>
